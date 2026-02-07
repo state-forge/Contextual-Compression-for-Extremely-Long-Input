@@ -3,7 +3,7 @@ import spacy
 from dateutil.parser import parse as parse_date
 
 # Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_md")
 
 class SentenceProcessor:
     def __init__(self):
